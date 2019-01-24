@@ -1,87 +1,148 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8' />
-    <title>Erin Petenko</title>
-    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.css' rel='stylesheet' />
-<!--     <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+	<head>
+		<meta charset='utf-8' />
+		<title>Erin Petenko</title>
+		<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+		<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.js'></script>
+		<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.css' rel='stylesheet' />
+		<!--     <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
  -->
-<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+				<style>
+	        body { margin:0px 2px 2px 5px; 
+	        	padding:0; 
+	        		}
+	        h1, h2 {
+			    color: #44343C;
+			    font-family:'Ubuntu';
+			}
 
+			h1 {
+				font-size: 40px;
 
-    <style>
-        body { margin:0px 2px 2px 5px; 
-        	padding:0; 
-        		}
-        h1, h2 {
-		    color: 'dark-red';
-		    font-family:'Ubuntu';
-		}
+			}
 
-		h1 {
-			font-size: 40px;
+			p {
+				font-family: 'Open Sans', sans-serif;
+				margin-left: 15px;
 
-		}
+			}
 
-		p, i {
-			font-family: 'Open Sans', sans-serif;
-			margin-left: 15px;
+			ul , i{
+				font-family: 'Open Sans', sans-serif;
+			
+			}
 
-		}
+			h4 {
+				font-family: 'Open Sans', sans-serif;
+				font-weight:700;
+				margin-bottom:0;
+				color: #44343C;
 
-		h4 {
-			font-family: 'Open Sans', sans-serif;
-			font-weight:700;
-			margin-bottom:0;
-		}
+			}
 
-		.years {
-			font-style: italic;
-		}
+			hr {
+				color: #5F5449;
+			}
 
+			.years {
+				font-style: italic;
+			}
+			#top-banner {
+				width: 100%;
+				height:15px;
+				background-color: #D66E58;
+			}
 
     </style>
-</head>
-<body>
-
-
-<body><h1>Erin Petenko</h1>
-	<h2>Data Reporter</h2>
-<p><a href='mailto:erin.petenko@gmail.com'>Email</a></p>      
-<p><a href='https://www.linkedin.com/in/erinpetenko'>LinkedIn</a></p>
-
-<hr>
-<h2>Employment:</h2>
-<h4>Data Reporter, NJ Advance Media, Iselin, New Jersey</h4> 			 <div class='years'>Aug. 2016- Present</div>
-	<p>Used Python, SQL and Excel to analyze data culled from a variety of sources. Wrote stories and 
-created innovative, interactive web visualizations using Javascript and HTML/CSS. Assisted in
-the creation of a database of major government data for reporters and the public. Worked 
-on investigative and long-term stories. Previously: data intern, May 2016 – August 2016.</p>
-<i>Sample stories: <a href='https://force.nj.com/'>The Force Report</a>, <a href='https://www.nj.com/healthfit/index.ssf/2017/06/doctors_raked_in_cash_to_push_powerful_fentanyl_as_nj_death_rate_soared.html'>fentanyl</a> and <a href='https://www.nj.com/data/2018/08/should_the_speed_limit_on_njs_highways_be_higher_we_used_a_radar_gun_to_find_the_answer.html'>speeding</a></i>
-<h4>Intern, WNBC-NY’s investigative team, New York City </h4>                               <div class='years'>Sept. 2015 - Dec. 2015</div>
-<p>Assisted with investigative reporting at every level with a team of professional journalists. 
-Produced web articles, served as support on video shoots, filed records requests, conducted data-
-based research and pitched stories for investigative and daily news.</p> 
-<i>Sample stories: <a href='https://www.nbcnewyork.com/news/local/Picasso-Painting-Hidden-Treasure-Discovery-Staten-Island-New-York-New-Jersey-Carl-Sabatino-351809951.html'>Picasso</a>, <a href='http://www.nbcnewyork.com/news/local/New-Jersey-ISIS-Supporter-Guilty-Plea-Nader-Saadeh--361470571.html'>ISIS</a>, and <a href='http://www.nbcnewyork.com/news/local/K2-Spice-Teenagers-New-York-City-Newark-Suburbs-359631231.html'>teen drug use</a></i>
-<h4>Associate News Editor, The Daily Targum, Rutgers-New Brunswick</h4>           <div class='years'>Oct. 2013 - Feb. 2015</div>
-<p>Wrote more than 200 articles for the News, Science, University, and Metro sections. 
-Edited 2-3 articles daily for the News desk, pitched stories and organized weekly schedule.</p> 
-<i>Sample stories: <a href='http://www.dailytargum.com/article/2014/02/police-investigate-death-of-former-rutgers-student-found-on-hartwell-street'>Breaking news</a>, <a href='http://www.dailytargum.com/article/2014/01/students-petition-course-changes'>investigations</a>, <a href='http://www.dailytargum.com/article/2014/03/nancy-pelosi-talks-political-career-experiences'>event coverage</a> and <a href='http://www.dailytargum.com/article/2013/11/rutgers-scientists-study-climate-change-in-greenland'>research</a></i>
-<h4>Intern, nonfiction book research and Jersey Bites food blog </h4>	       <div class='years'> Aug. 2014 - Dec. 2014</div>
-<p>Fact checked and researched for children’s book. Gained experience with WordPress and social 
-media. Wrote articles on food and restaurant news, events and recipe compilations. </p>
-<hr>
-<h2>Skills:</h2>
-<h4>Computer-based:</h4> <p>Python, Javascript, HTML/CSS, SQL, Adobe Illustrator, Excel, GIS</p>
-<h4>Reporting:</h4><p> Print and Broadcast Writing, Research, Fact checking, AP Style, FOIA</p>
-<hr>
-<h2>Education:</h2>
-<h4>Rutgers University, School of Arts and Sciences Honors Program </h4>                      <div class='years'>2012-2016</div>
-<p>Majors: Journalism and Public Health, GPA: 3.90. </p>
-<p>Project: Public Health thesis, spring 2016, content analysis of e-cigarette media coverage</p>
-<!-- <h2>Awards and Recognition:</h2>
-<p>Rutgers 
- -->	
+			</head>
+			<body>
+				<div id='top-banner'></div>
+				<h1>Erin Petenko</h1>
+				<h2>Data Reporter</h2>
+				<p>Erin Petenko uses cutting-edge tech to tackle age-old local journalism stories. Follow her on Twitter <a href='https://twitter.com/EPetenko'>@epetenko</a>.</p>
+				<p>
+					<a href='mailto:erin.petenko@gmail.com'>Email</a>
+				</p>
+				<p>
+					<a href='https://www.linkedin.com/in/erinpetenko'>LinkedIn</a>
+				</p>
+				<hr/>
+				<h2>Employment:</h2>
+				<h4>Data Reporter, NJ Advance Media, Iselin, New Jersey</h4>
+				<div class='years'>Aug. 2016- Present</div>
+				<ul>Used Python, SQL and Excel to analyze data culled from a variety of sources. </ul>
+				<ul>Wrote stories and 
+created innovative, interactive web visualizations using Javascript and HTML/CSS.</ul>
+				<ul> Assisted in
+the creation of a database of major government data for reporters and the public.</ul>
+				<ul>Worked 
+on investigative and long-term stories.</ul> <ul>Previously: data intern, May 2016 – August 2016.
+			</ul>
+			<i>Sample stories: 
+							
+					
+				<a href='https://force.nj.com/'>The Force Report</a>, 
+							
+					
+				<a href='https://www.nj.com/healthfit/index.ssf/2017/06/doctors_raked_in_cash_to_push_powerful_fentanyl_as_nj_death_rate_soared.html'>fentanyl</a> and 
+							
+					
+				<a href='https://www.nj.com/data/2018/08/should_the_speed_limit_on_njs_highways_be_higher_we_used_a_radar_gun_to_find_the_answer.html'>speeding</a>. See all stories <a href='http://connect.nj.com/staff/epetenko/posts.html'>here</a>.
+			</i>
+			<h4>Intern, WNBC-NY’s investigative team, New York City </h4>
+			<div class='years'>Sept. 2015 - Dec. 2015</div>
+			<ul>Assisted with investigative reporting at every level with a team of professional journalists. </ul>
+			<ul>Produced web articles, served as support on video shoots, filed records requests, conducted data-
+based research and pitched stories for investigative and daily news.</ul>
+			<i>Sample stories: 
+							
+					
+				<a href='https://www.nbcnewyork.com/news/local/Picasso-Painting-Hidden-Treasure-Discovery-Staten-Island-New-York-New-Jersey-Carl-Sabatino-351809951.html'>Picasso</a>, 
+							
+					
+				<a href='http://www.nbcnewyork.com/news/local/New-Jersey-ISIS-Supporter-Guilty-Plea-Nader-Saadeh--361470571.html'>ISIS</a>, and 
+							
+					
+				<a href='http://www.nbcnewyork.com/news/local/K2-Spice-Teenagers-New-York-City-Newark-Suburbs-359631231.html'>teen drug use</a>. 
+			</i>
+			<h4>Associate News Editor, The Daily Targum, Rutgers-New Brunswick</h4>
+			<div class='years'>Oct. 2013 - Feb. 2015</div>
+			<ul>Wrote more than 200 articles for the News, Science, University, and Metro sections. </ul>
+			<ul>Edited 2-3 articles daily for the News desk, pitched stories and organized weekly schedule.</ul>
+			<i>Sample stories: 
+							
+					
+				<a href='http://www.dailytargum.com/article/2014/02/police-investigate-death-of-former-rutgers-student-found-on-hartwell-street'>Breaking news</a>, 
+							
+					
+				<a href='http://www.dailytargum.com/article/2014/01/students-petition-course-changes'>investigations</a>, 
+							
+					
+				<a href='http://www.dailytargum.com/article/2014/03/nancy-pelosi-talks-political-career-experiences'>event coverage</a> and 
+							
+					
+				<a href='http://www.dailytargum.com/article/2013/11/rutgers-scientists-study-climate-change-in-greenland'>research</a>
+			</i>
+			<h4>Intern, nonfiction book research and Jersey Bites food blog </h4>
+			<div class='years'> Aug. 2014 - Dec. 2014</div>
+			<ul>Fact checked and researched for children’s book. Gained experience with WordPress and social 
+			media.</ul>
+			<ul> Wrote articles on food and restaurant news, events and recipe compilations. </ul>
+			<hr/>
+			<h2>Skills:</h2>
+			<h4>Computer-based:</h4>
+			<p>Python, Javascript, HTML/CSS, SQL, Adobe Illustrator, Excel, GIS</p>
+			<h4>Reporting:</h4>
+			<p> Print and Broadcast Writing, Research, Fact checking, AP Style, FOIA</p>
+			<hr/>
+			<h2>Education:</h2>
+			<h4>Rutgers University, School of Arts and Sciences Honors Program </h4>
+			<div class='years'>2012-2016</div>
+			<p>Majors: Journalism and Public Health.</p>
+			<p>Project: Public Health thesis, spring 2016, content analysis of e-cigarette media coverage</p>
+			<!-- <h2>Awards and Recognition:</h2><p>Rutgers 
+ -->
+		</body>
