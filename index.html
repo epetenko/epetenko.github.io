@@ -13,20 +13,31 @@
 				<style>
 	        body { margin:0px 2px 2px 5px; 
 	        	padding:0; 
-	        		}
+/*	        	background-color: #344351;
+*/	        		}
 	        h1, h2 {
-			    color: #44343C;
-			    font-family:'Ubuntu';
+			    color: #000;
+			    font-family:'Open Sans';
+			    font-weight: 400;
 			}
 
 			h1 {
-				font-size: 40px;
+				font-size: 45px;
 
 			}
 
-			p {
+			.section {
+/*				background-color: #FAFBFA;
+*/				border-radius: 10px;
+				margin: 4px 55px 2px 5px;
+				padding: 2px;
+				color: #344351;
+			}
+
+			p, .intro, .intro a {
 				font-family: 'Open Sans', sans-serif;
 				margin-left: 15px;
+				color: #000;
 
 			}
 
@@ -39,21 +50,28 @@
 				font-family: 'Open Sans', sans-serif;
 				font-weight:700;
 				margin-bottom:0;
-				color: #44343C;
+				margin-top: 2px;
+				color: #414246;
 
 			}
 
 			hr {
-				color: #5F5449;
+				color: #D8BFC2;
 			}
 
 			.years {
 				font-style: italic;
+				font-family: 'Open Sans', sans-serif;
+				font-size:14px;
+				color: #4B5075;
+			}
+			.years ul {
+				margin:0;
 			}
 			#top-banner {
 				width: 100%;
 				height:15px;
-				background-color: #D66E58;
+				background-color: #084C61;
 			}
 
     </style>
@@ -62,24 +80,19 @@
 				<div id='top-banner'></div>
 				<h1>Erin Petenko</h1>
 				<h2>Data Reporter</h2>
-				<p>Erin Petenko uses cutting-edge tech to tackle age-old local journalism stories. Follow her on Twitter <a href='https://twitter.com/EPetenko'>@epetenko</a>.</p>
-				<p>
-					<a href='mailto:erin.petenko@gmail.com'>Email</a>
-				</p>
-				<p>
-					<a href='https://www.linkedin.com/in/erinpetenko'>LinkedIn</a>
-				</p>
-				<hr/>
+				<div class='intro'>Erin Petenko uses cutting-edge tech to tackle age-old local journalism stories. <div class='years'><a href='https://twitter.com/EPetenko'>Twitter</a>, <a href='mailto:erin.petenko@gmail.com'>Email</a>, <a href='https://www.linkedin.com/in/erinpetenko'>LinkedIn</a>, <a href='https://github.com/epetenko'>Github</a> </div>
+				</div>
+				<hr>
 				<h2>Employment:</h2>
+				<div class='section'>
 				<h4>Data Reporter, NJ Advance Media, Iselin, New Jersey</h4>
 				<div class='years'>Aug. 2016- Present</div>
-				<ul>Used Python, SQL and Excel to analyze data culled from a variety of sources. </ul>
 				<ul>Wrote stories and 
 created innovative, interactive web visualizations using Javascript and HTML/CSS.</ul>
+				<ul>Used Python, SQL and Excel to analyze data culled from a variety of sources. </ul>
 				<ul> Assisted in
 the creation of a database of major government data for reporters and the public.</ul>
-				<ul>Worked 
-on investigative and long-term stories.</ul> <ul>Previously: data intern, May 2016 – August 2016.
+				<ul>Published investigative and long-term stories.</ul> <ul>Previously: data intern, May 2016 – August 2016.
 			</ul>
 			<i>Sample stories: 
 							
@@ -91,12 +104,12 @@ on investigative and long-term stories.</ul> <ul>Previously: data intern, May 20
 							
 					
 				<a href='https://www.nj.com/data/2018/08/should_the_speed_limit_on_njs_highways_be_higher_we_used_a_radar_gun_to_find_the_answer.html'>speeding</a>. See all stories <a href='http://connect.nj.com/staff/epetenko/posts.html'>here</a>.
-			</i>
+			</i></div>
+			<div class='section'>
 			<h4>Intern, WNBC-NY’s investigative team, New York City </h4>
 			<div class='years'>Sept. 2015 - Dec. 2015</div>
 			<ul>Assisted with investigative reporting for 2-3 broadcast stories per week.</ul>
-			<ul>Produced web articles, served as support on video shoots, filed records requests, conducted data-
-based research and pitched stories for investigative and daily news.</ul>
+			<ul>Produced web articles, served as support on video shoots, filed records requests, conducted data-based research and pitched stories for investigative and daily news.</ul>
 			<i>Sample stories: 
 							
 					
@@ -107,8 +120,9 @@ based research and pitched stories for investigative and daily news.</ul>
 							
 					
 				<a href='http://www.nbcnewyork.com/news/local/K2-Spice-Teenagers-New-York-City-Newark-Suburbs-359631231.html'>teen drug use</a>. 
-			</i>
-			<h4>Associate News Editor, The Daily Targum, Rutgers-New Brunswick</h4>
+			</i></div>
+			<div class='section'>
+			<h4>Associate News Editor, The Daily Targum, Rutgers University-New Brunswick</h4>
 			<div class='years'>Oct. 2013 - Feb. 2015</div>
 			<ul>Wrote more than 200 articles for the News, Science, University, and Metro sections. </ul>
 			<ul>Edited 2-3 articles daily for the News desk, pitched stories and organized weekly schedule.</ul>
@@ -125,24 +139,34 @@ based research and pitched stories for investigative and daily news.</ul>
 							
 					
 				<a href='http://www.dailytargum.com/article/2013/11/rutgers-scientists-study-climate-change-in-greenland'>research</a>
-			</i>
+			</i></div>
+		<!-- 	<div class='section'>
 			<h4>Intern, nonfiction book research and Jersey Bites food blog </h4>
 			<div class='years'> Aug. 2014 - Dec. 2014</div>
 			<ul>Fact checked and researched for children’s book. Gained experience with WordPress and social 
 			media.</ul>
 			<ul> Wrote articles on food and restaurant news, events and recipe compilations. </ul>
-			<hr/>
+			</div> -->
+			<hr>
 			<h2>Skills:</h2>
+					<div class='section'>
+
 			<h4>Computer-based:</h4>
-			<p>Python, Javascript, HTML/CSS, SQL, Adobe Illustrator, Excel, GIS</p>
+			<ul>Python, Javascript, D3, HTML/CSS, SQL, Adobe Illustrator, Excel, GIS</ul>
+		</div>
+		<div class='section'>
 			<h4>Reporting:</h4>
-			<p> Print and Broadcast Writing, Research, Fact checking, AP Style, FOIA</p>
-			<hr/>
+			<ul> Print and Broadcast Writing, Research, Fact checking, AP Style, FOIA</ul>
+			</div>
+			<hr>
 			<h2>Education:</h2>
+			<div class='section'>
+
 			<h4>Rutgers University, School of Arts and Sciences Honors Program</h4>
 			<div class='years'>2012-2016. Summa cum laude</div>
-			<p>Majors: Journalism and Public Health.</p>
-			<p>Project: Public Health thesis, spring 2016, content analysis of e-cigarette media coverage</p>
+			<ul>Majors: Journalism and Public Health.</ul>
+			<ul>Project: Public Health thesis, spring 2016, content analysis of e-cigarette media coverage</ul>
+		</div>
 			<!-- <h2>Awards and Recognition:</h2><p>Rutgers 
  -->
 		</body>
